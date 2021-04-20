@@ -25,7 +25,7 @@ my_motor.b_sec = [
             [0, 0, 1, 0],
             [0, 1, 0, 0],
             [0, 0, 0, 0]]
-            '''
+'''
 while True:
     for step in range(20):
         my_motor.move(1, False)
