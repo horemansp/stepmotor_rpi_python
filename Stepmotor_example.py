@@ -33,5 +33,5 @@ while True:
         my_motor.move(1, False)
     time.sleep(2)
     for step in range(20):
-        my_motor.move(1, False)
+        my_motor.move(1, True)
     
