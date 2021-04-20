@@ -2,8 +2,6 @@
 import time
 from motors.motor import *
 
-
-
  # Initialize (run once)----------------------------------------------------
 my_motor = Motor("Stepper") #create an object from type Motor with name "Stepper"
 
