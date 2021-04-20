@@ -9,7 +9,7 @@
 </head>
 <body>
 <div class="textstyle1">
-<span class="textstyle2">Module to use a simple stepmotor with RPI &amp; python.</span><span class="textstyle3"><br/><br/>How to use:<br/>- Copy the motors folder to the folder of your python file<br/>- use &quot;from motors.motor import *&quot;<br/>- Create object of type Motor(name). Example: my_motor = Motor(&quot;Funcky motor&quot;)<br/>- Change attributes as desired (or use defaults - see table below)<br/>- use the method init() to initialise desired ports (or defaults) once<br/>- use the method move(steps, direction) to move the motor (see below)<br/><br/></span>  <table id="table_67c5a5c8" cellpadding="3" cellspacing="1" >
+<span class="textstyle2">Module to use a simple stepmotor with RPI &amp; python.</span><span class="textstyle3"><br/><br/>How to use:<br/>- Copy the motors folder to the folder of your python file<br/>- use &quot;from motors.motor import *&quot;<br/>- Create object of type Motor(name). Example: my_motor = Motor(&quot;Funcky motor&quot;)<br/>- Change attributes as desired (or use defaults - see table below)<br/>- use the method init() to initialize desired ports (or defaults) once<br/>- use the method move(steps, direction) to move the motor (see below)<br/><br/></span>  <table id="table_67c5a5c8" cellpadding="3" cellspacing="1" >
 	<tr>
 		<td width="33%" height="21px" style="vertical-align: top; overflow:hidden; ">    <div id="cell_15ec8179">
       <div class="textstyle1">
