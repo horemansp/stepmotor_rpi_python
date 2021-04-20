@@ -5,11 +5,11 @@ from motors.motor import *
  # Initialize (run once)----------------------------------------------------
 my_motor = Motor("Stepper") #create an object from type Motor with name "Stepper"
 
-'''Example changethe default use output pins (GPIO BCM numbering)
+'''Example change the default used output pins (GPIO BCM numbering)
 my_motor.used_pins = [20, 21, 22, 23]'''
 
-my_motor.init() #initialize ports, in this case the default ports
-my_motor.helo() #let the motor know he is alive
+my_motor.init() #initialize GPIO ports, in this case the default ports
+my_motor.helo() #test to see if the motor object is alive!
 my_motor.debug = True
 
 '''Example change default sequence (less power per steps)
