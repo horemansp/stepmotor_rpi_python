@@ -1,5 +1,6 @@
 #####################################################################
-#   module to initialize and steer motors                            #
+#   module to initialize and use a stepmotor                        #
+#   Made by Patrik Horemans 2021                                    #
 #####################################################################
 # import dependencies
 import time
